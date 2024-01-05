@@ -122,8 +122,10 @@ form textarea {
 footer {
   background-color: #333;
   color: white;
-  padding: 1rem;
+  height: 50px;
   text-align: center;
+  padding: 30px 0 0 0;
+  font-size: 12px;
 }
 
 
