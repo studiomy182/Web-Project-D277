@@ -28,23 +28,16 @@ h1 {
 }
 nav {
   align-items: center;
-  margin-top: 330px;
-  /* background: beige; */
+  margin-top: 315px;
   border-bottom: 1px solid lightgray;
 }
-
 nav ul {
-  
   list-style: none;
   display: flex;
-  flex-direction: left;
   justify-content: center;
 }
 nav li {
   margin-right: 20px;
-  text-align: center;
-  flex-basis: 60px;
- 
 }
 nav a {
   text-decoration: none;
@@ -52,6 +45,9 @@ nav a {
 }
 nav a:hover {
   color: blue; /* Text color of the navigation links on hover */
+}
+nav a:active {
+  color: peru;
 }
 h2 {
   text-align: left;
