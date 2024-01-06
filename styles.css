@@ -20,24 +20,24 @@ header {
 h1 {
     position: absolute;
     top: 40%; 
-    left: 10%;
+    left: 2em;
     transform: translate(-10%, -70%); 
     color: white;
     font-size: 40px;
     padding: 10px;
 }
 nav {
-  align-items: center;
+  
   margin-top: 315px;
   border-bottom: 1px solid lightgray;
 }
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 nav li {
-  margin-right: 30px;
+  margin-right: 40px;
 }
 nav a {
   text-decoration: none;
@@ -58,7 +58,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 2rem;
+  
   
 }
 
