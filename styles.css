@@ -72,24 +72,20 @@ nav a:active {
   flex-basis: 70%;
   display: flex;
   flex-direction: column;
- 
-
 }
 ul {
   margin-right: 20px;
 }
 
 .featured-image {
-  display: flex;
   width: 200px;
-  margin-bottom: 20px;
+  
+  float: left; 
+  margin-right: 20px;
 }
-
 
 aside {
   flex-basis: 25%;
-  
-  
 } 
 .additional-info > h2 {
 font-size: 18px;
@@ -109,8 +105,6 @@ font-size: 18px;
 .additional-info > ul {
  position: relative;
  left: -25px;
-
-
 }
 
 
@@ -118,7 +112,9 @@ font-size: 18px;
   max-width: 500px;
   margin:  auto;
   margin-bottom: 40px;
-  transform: translate(-20%, 5%); 
+  border: 1px lightgray solid;
+  padding: 40px;
+  
 }
 
 form {
@@ -155,16 +151,7 @@ figcaption {
   align-content: center;
   
 }
-footer {
-  background-color: #333;
-  color: white;
-  line-height: 100px;
-  text-align: center;
-  padding: 5px;
-  font-size: 12px;
-  margin-left: -10px;
-  margin-right: -10px;
-}
+
 .header-text {
   float: right; 
   font-size: 50px; 
@@ -197,4 +184,15 @@ footer {
   margin-right: 16px;
   border: none;
   font-size: 17px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  line-height: 80px;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -10px;
 }
